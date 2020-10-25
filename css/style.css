@@ -191,7 +191,17 @@ html{
 	font-family: sans-serif;
 	font-size: 1.3rem;
 	margin-left: 70px;
-	color: #FFFFFF;	
+	text-align: center;	
+}
+.row p a{
+     color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+.row p a:hover {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: none;
 }
  @media(max-width:1190px){
 	#main{
