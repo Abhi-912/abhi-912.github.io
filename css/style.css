@@ -182,7 +182,8 @@ html{
 }
 .row img{
 	width: 20%;
-	margin-left: 160px;
+	margin: 0px auto;
+	display: block;
 }
 
 .row p{
