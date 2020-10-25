@@ -141,12 +141,9 @@ html{
 	align-items: center;
 }
 .img-logo{
-	width: 100px;
-	height: 100px;
-	margin-top: 30px;
-	margin-left: 130px; 
-	object-fit: cover;
-	align-items: center;
+	width: 20%;
+	margin: 0px auto;
+	display: block;
 }
 .s-b-text h2{
 	width: 100%;
