@@ -252,7 +252,7 @@ html{
 	.about-text h1{
 		font-size:4rem;
 	}
-	.row p{
-           margin-right: 30px;
+	.p-container{
+		width:100%;
 	}
 }
