@@ -144,7 +144,7 @@ html{
 	width: 100px;
 	height: 100px;
 	margin-top: 30px;
-	margin-left: 130px; 
+	margin-left: 150px; 
 	object-fit: cover;
 }
 .s-b-text h2{
@@ -181,7 +181,7 @@ html{
 }
 .row img{
 	width: 20%;
-	margin-left: 130px;
+	margin-left: 160px;
 }
 
 .row p{
