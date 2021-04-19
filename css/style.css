@@ -20,7 +20,7 @@ html{
 	box-sizing: border-box;
 	background-color: #edf1fd;
 	position: relative;
-    background-image: url("../pictures/booot.png");
+    /*background-image: url("../pictures/booot.png");*/
     background-repeat: no-repeat;
     background-size: 450px;
     background-position: right bottom;
