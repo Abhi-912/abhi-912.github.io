@@ -31,12 +31,7 @@ export default function Home() {
               </div>
               <span style={{ color: 'var(--text-secondary)', background: 'rgba(255,255,255,0.05)', padding: '0.25rem 0.75rem', borderRadius: '1rem', fontSize: '0.875rem' }}>August 2025 – Present</span>
             </div>
-            <ul style={{ paddingLeft: '1.5rem', color: 'var(--text-secondary)', display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
-              <li>Designed a high-throughput notification scheduler leveraging virtual threads and batch processing to sustain 10K+ TPS.</li>
-              <li>Optimized notification delivery by replacing templates with template IDs and removing S3 uploads, reducing latency.</li>
-              <li>Implemented Redis-based deduplication using idempotency keys for timeline notifications.</li>
-              <li>Reduced cloud infrastructure costs and strengthened security by migrating legacy caches to Redis (Valkey).</li>
-            </ul>
+
           </div>
 
           <div className="glass-card">
@@ -47,12 +42,7 @@ export default function Home() {
               </div>
               <span style={{ color: 'var(--text-secondary)', background: 'rgba(255,255,255,0.05)', padding: '0.25rem 0.75rem', borderRadius: '1rem', fontSize: '0.875rem' }}>August 2022 – July 2025</span>
             </div>
-            <ul style={{ paddingLeft: '1.5rem', color: 'var(--text-secondary)', display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
-              <li>Built a reactive API Gateway with non-blocking I/O and Redis-backed authentication for 1M+ daily request scale.</li>
-              <li>Migrated microservices from Hystrix to Resilience4j, improving system responsiveness by 12%.</li>
-              <li>Designed and implemented a reliable notification delivery pipeline using cursor-based queries and Redis for state tracking.</li>
-              <li>Achieved $800/month in infrastructure cost savings through AWS optimization initiatives.</li>
-            </ul>
+
           </div>
 
           <div className="glass-card">
@@ -63,10 +53,7 @@ export default function Home() {
               </div>
               <span style={{ color: 'var(--text-secondary)', background: 'rgba(255,255,255,0.05)', padding: '0.25rem 0.75rem', borderRadius: '1rem', fontSize: '0.875rem' }}>Jan 2022 – July 2022</span>
             </div>
-            <ul style={{ paddingLeft: '1.5rem', color: 'var(--text-secondary)', display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
-              <li>Wrote an API Wrapper to fetch details from SAP for a health policy achieving a 23% faster response time.</li>
-              <li>Improved multi-member policy processing time by 12% through database query optimization.</li>
-            </ul>
+
           </div>
 
         </div>
@@ -95,9 +82,9 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Education & Achievements Section */}
+      {/* Education Section */}
       <section id="education" className="section animate-fade-in" style={{ animationDelay: '0.6s' }}>
-        <h2 className="section-title">Education & Achievements</h2>
+        <h2 className="section-title">Education</h2>
         <div className="glass-card" style={{ marginBottom: '2rem' }}>
           <h3 style={{ fontSize: '1.5rem', color: 'var(--accent-primary)' }}>Birsa Institute of Technology, Sindri</h3>
           <p style={{ fontSize: '1.125rem', marginBottom: '0.5rem' }}>Bachelor of Technology in Electronics and Communication Engineering</p>
@@ -107,13 +94,7 @@ export default function Home() {
             <span>August 2018 – June 2022</span>
           </div>
         </div>
-        <div className="glass-card">
-          <h3 style={{ color: 'var(--accent-secondary)', marginBottom: '1rem' }}>Achievements</h3>
-          <ul style={{ paddingLeft: '1.5rem', color: 'var(--text-secondary)', display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
-            <li>Recognized as a Top Performer for two consecutive quarters at Samsung India for exceptional contributions.</li>
-            <li>Solved 800+ problems on coding platforms including LeetCode, CodeChef, and Codeforces.</li>
-          </ul>
-        </div>
+
       </section>
     </div>
   );
